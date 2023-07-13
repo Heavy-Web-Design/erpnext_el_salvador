@@ -14,7 +14,10 @@ def currency_to_words(number):
 
     from num2words import num2words
 
-    result = str(number).partition('.')
+    #number_format = round(float(number), 2)
+    number_format = format(float(number), ".2f")
+
+    result = str(number_format).partition('.')
 
     # Integer part
     integer = num2words(result[0], lang='es')
