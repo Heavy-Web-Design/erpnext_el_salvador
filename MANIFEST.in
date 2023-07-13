@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include el_salvador *.css
+recursive-include el_salvador *.csv
+recursive-include el_salvador *.html
+recursive-include el_salvador *.ico
+recursive-include el_salvador *.js
+recursive-include el_salvador *.json
+recursive-include el_salvador *.md
+recursive-include el_salvador *.png
+recursive-include el_salvador *.py
+recursive-include el_salvador *.svg
+recursive-include el_salvador *.txt
+recursive-exclude el_salvador *.pyc
