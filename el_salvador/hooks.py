@@ -6,7 +6,7 @@ app_publisher = "Juan Pablo López Garciaguirre"
 app_description = "El Salvador customizations"
 app_email = "juanpablo@heavywebdesign.com"
 app_license = "MIT"
-app_version = "0.0.1"
+app_version = "0.0.2"
 
 # Includes in <head>
 # ------------------
@@ -43,7 +43,7 @@ app_version = "0.0.1"
 
 # website user home page (by Role)
 # role_home_page = {
-#	"Role": "home_page"
+# "Role": "home_page"
 # }
 
 # Generators
@@ -57,8 +57,8 @@ app_version = "0.0.1"
 
 # add methods and filters to jinja environment
 # jinja = {
-#	"methods": "el_salvador.utils.jinja_methods",
-#	"filters": "el_salvador.utils.jinja_filters"
+# "methods": "el_salvador.utils.jinja_methods",
+# "filters": "el_salvador.utils.jinja_filters"
 # }
 
 # Installation
@@ -84,11 +84,11 @@ app_version = "0.0.1"
 # Permissions evaluated in scripted ways
 
 # permission_query_conditions = {
-#	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
+# "Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
 # }
 #
 # has_permission = {
-#	"Event": "frappe.desk.doctype.event.event.has_permission",
+# "Event": "frappe.desk.doctype.event.event.has_permission",
 # }
 
 # DocType Class
@@ -96,7 +96,7 @@ app_version = "0.0.1"
 # Override standard doctype classes
 
 # override_doctype_class = {
-#	"ToDo": "custom_app.overrides.CustomToDo"
+# "ToDo": "custom_app.overrides.CustomToDo"
 # }
 
 # Document Events
@@ -104,32 +104,32 @@ app_version = "0.0.1"
 # Hook on document methods and events
 
 # doc_events = {
-#	"*": {
-#		"on_update": "method",
-#		"on_cancel": "method",
-#		"on_trash": "method"
-#	}
+# "*": {
+# "on_update": "method",
+# "on_cancel": "method",
+# "on_trash": "method"
+# }
 # }
 
 # Scheduled Tasks
 # ---------------
 
 # scheduler_events = {
-#	"all": [
-#		"el_salvador.tasks.all"
-#	],
-#	"daily": [
-#		"el_salvador.tasks.daily"
-#	],
-#	"hourly": [
-#		"el_salvador.tasks.hourly"
-#	],
-#	"weekly": [
-#		"el_salvador.tasks.weekly"
-#	],
-#	"monthly": [
-#		"el_salvador.tasks.monthly"
-#	],
+# "all": [
+# "el_salvador.tasks.all"
+# ],
+# "daily": [
+# "el_salvador.tasks.daily"
+# ],
+# "hourly": [
+# "el_salvador.tasks.hourly"
+# ],
+# "weekly": [
+# "el_salvador.tasks.weekly"
+# ],
+# "monthly": [
+# "el_salvador.tasks.monthly"
+# ],
 # }
 
 # Testing
@@ -141,14 +141,14 @@ app_version = "0.0.1"
 # ------------------------------
 #
 # override_whitelisted_methods = {
-#	"frappe.desk.doctype.event.event.get_events": "el_salvador.event.get_events"
+# "frappe.desk.doctype.event.event.get_events": "el_salvador.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-#	"Task": "el_salvador.task.get_dashboard_data"
+# "Task": "el_salvador.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -174,29 +174,29 @@ app_version = "0.0.1"
 # --------------------
 
 # user_data_fields = [
-#	{
-#		"doctype": "{doctype_1}",
-#		"filter_by": "{filter_by}",
-#		"redact_fields": ["{field_1}", "{field_2}"],
-#		"partial": 1,
-#	},
-#	{
-#		"doctype": "{doctype_2}",
-#		"filter_by": "{filter_by}",
-#		"partial": 1,
-#	},
-#	{
-#		"doctype": "{doctype_3}",
-#		"strict": False,
-#	},
-#	{
-#		"doctype": "{doctype_4}"
-#	}
+# {
+# "doctype": "{doctype_1}",
+# "filter_by": "{filter_by}",
+# "redact_fields": ["{field_1}", "{field_2}"],
+# "partial": 1,
+# },
+# {
+# "doctype": "{doctype_2}",
+# "filter_by": "{filter_by}",
+# "partial": 1,
+# },
+# {
+# "doctype": "{doctype_3}",
+# "strict": False,
+# },
+# {
+# "doctype": "{doctype_4}"
+# }
 # ]
 
 # Authentication and authorization
 # --------------------------------
 
 # auth_hooks = [
-#	"el_salvador.auth.validate"
+# "el_salvador.auth.validate"
 # ]
