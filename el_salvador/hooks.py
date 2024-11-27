@@ -7,6 +7,7 @@ app_description = "El Salvador customizations"
 app_email = "juanpablo@heavywebdesign.com"
 app_license = "MIT"
 app_version = "0.0.2"
+required_apps = ["erpnext"]
 
 # Includes in <head>
 # ------------------
