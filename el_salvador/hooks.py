@@ -66,7 +66,7 @@ required_apps = ["erpnext"]
 # ------------
 
 # before_install = "el_salvador.install.before_install"
-# after_install = "el_salvador.install.after_install"
+after_install = "el_salvador.setup.install.after_install"
 
 # Uninstallation
 # ------------
